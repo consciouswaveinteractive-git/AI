@@ -30,13 +30,13 @@ description: Lập, cập nhật và nghiệm thu ExecPlan ngắn gọn cho ngư
 
 - Tổng hợp là báo cáo các file chi tiết dưới dạng xúc tích và dễ đọc cho người
 - File output chi tiết dùng định dạng khác Markdown, phù hợp với dữ liệu: CSV/XLSX cho bảng đối chiếu, JSON cho dữ liệu có cấu trúc lồng nhau, JSONL cho chuỗi sự kiện. Ảnh, PDF hoặc log giữ định dạng gốc khi cần làm bằng chứng. Không đổi đuôi file chỉ để đáp ứng định dạng.
-- Ví dụ: [acceptance evidence example 1](references/acceptance-evidence-example-1.md#output) — phân loại 235 SO theo trạng thái và tham chiếu dữ liệu JSON chi tiết.
+- Ví dụ: [acceptance evidence example 1](references/acceptance-evidence-example-1.md#output) 
 
 ### Decision log
 
 - Chỉ ghi quyết định đã được người vận hành trả lời/quyết định; câu hỏi chưa được trả lời nằm ở phần việc đang chặn hoặc checkpoint.
 - Không có record cụ thể đính kèm. Trọng tâm là quy tắc có thể tái sử dụng, không phải nhật ký xử lý từng record.
-- Ví dụ: [acceptance evidence example 1](references/acceptance-evidence-example-1.md#decision-log) — câu hỏi và câu trả lời thực tế; chỉ tái sử dụng trong phạm vi đã được duyệt, không mặc định áp dụng ngoại lệ sang workflow khác.
+- Ví dụ: [acceptance evidence example 1](references/acceptance-evidence-example-1.md#decision-log)
 
 ### Checkpoint
 
