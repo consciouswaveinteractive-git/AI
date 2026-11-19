@@ -8,6 +8,7 @@
 <tiêu chí nghiệm thu 2>.
 
 - **Tổng hợp báo cáo từ kết quả chi tiết:**
+
 | Kết quả/trạng thái | Số lượng hoặc kết luận |
 |---|---|
 | <Nhóm kết quả cần theo dõi> | <Số lượng/kết luận có thể kiểm chứng> |
@@ -18,8 +19,8 @@
 ## Decision log
 
 | STT | Câu hỏi AI đã hỏi | Câu trả lời của người vận hành | Quy tắc áp dụng cho case tương tự |
-|---|---|---|---|---|
-| 01 | <Câu hỏi thực tế> | <Câu trả lời đã nhận; không tự suy diễn> | <Nếu gặp tình huống X thì xử lý Y> | 
+|---|---|---|---|
+| 01 | <Câu hỏi thực tế> | <Câu trả lời đã nhận; không tự suy diễn> | <Nếu gặp tình huống X thì xử lý Y> |
 
 
 ## Checkpoint
