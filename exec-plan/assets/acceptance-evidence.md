@@ -20,9 +20,9 @@
 
 ## Decision log
 
-| STT | Câu hỏi AI đã hỏi | Câu trả lời của người vận hành | Rule + Exception |
+| STT | Câu hỏi AI đã hỏi | Câu trả lời của người vận hành | Rule + Exception suy rộng do người vận hành quyết định |
 |---|---|---|---|
-| 01 | <Câu hỏi thực tế> | <Câu trả lời đã nhận; không tự suy diễn> | <Nếu gặp tình huống X thì xử lý Y ngoại trừ trường hợp Z phải hỏi lại> |
+| 01 | <Câu hỏi thực tế sau khi lược bỏ thông tin record id> | <Câu trả lời đã nhận> | <Nếu gặp tình huống X thì xử lý Y ngoại trừ trường hợp Z phải hỏi lại> |
 
 
 ## Checkpoint
