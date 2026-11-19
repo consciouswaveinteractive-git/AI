@@ -5,7 +5,8 @@ description: Lập, cập nhật và nghiệm thu ExecPlan ngắn gọn cho ngư
 
 # ExecPlan
 
-- Tổ chức theo cấu trúc fractal và theo mốc có thể kiểm chứng bằng file bằng chứng với nội dung và format xúc tích ; KHÔNG PHẢI do riêng AI đọc với cấu trúc tùy ý với step by step plan và nhiều file .md khó đọc 
+- Tổ chức theo cấu trúc fractal và theo mốc có thể kiểm chứng thay vì câu trúc step by step plan
+- Viết xúc tích, nội dung chi tiết dài cho hết vào link để khoảng trống file gốc cho người đọc thay vì nhồi nhét chữ vào file gốc cho riêng AI đọc
 
 ## Structure
 
