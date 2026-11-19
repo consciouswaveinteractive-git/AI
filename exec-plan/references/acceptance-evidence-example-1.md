@@ -23,8 +23,6 @@
 
 ## Decision log
 
-- Các câu trả lời dưới đây là quyết định trong workflow nguồn, không phải quyền áp dụng chung cho project hoặc môi trường khác.
-
 | Câu hỏi | Câu trả lời |
 |---|---|
 | confirm SO tự sinh chuỗi PICK → PACK → DELIVERY đang mở trên V19 không? | Không, trên v19 confirm SO chỉ sinh PICK thôi |
