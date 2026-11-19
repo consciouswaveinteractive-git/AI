@@ -20,7 +20,7 @@
 
 ## Decision log
 
-| STT | Câu hỏi AI đã hỏi | Câu trả lời của người vận hành | Quy tắc áp dụng cho case tương tự |
+| STT | Câu hỏi AI đã hỏi | Câu trả lời của người vận hành | Rule + Exception |
 |---|---|---|---|
 | 01 | <Câu hỏi thực tế> | <Câu trả lời đã nhận; không tự suy diễn> | <Nếu gặp tình huống X thì xử lý Y> |
 
