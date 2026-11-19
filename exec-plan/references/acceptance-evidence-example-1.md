@@ -1,16 +1,12 @@
-# SO production — PY tháng 10, ngày 26–31
+# Ví dụ Acceptance evidence
 
-- Nguồn: `.agents/long-workflow/py-oct-26-31/planning/so-production.md` trong project Odoo PY.
-- Ví dụ giữ số liệu và quyết định từ bản nguồn; không phản ánh trạng thái production hiện tại. Tiêu chí nghiệm thu bên dưới được bổ sung để minh họa, chưa phải tiêu chí đã được người vận hành phê duyệt.
-- Các đường dẫn dữ liệu/checkpoint được giữ làm tham chiếu trong project nguồn; những file đó không được đưa kèm ví dụ này.
+- Nguồn ví dụ từ một project migration dữ liệu đã done, toàn bộ project đó không được đưa kèm ví dụ , ví dụ này không phản ánh trạng thái công việc hiện tại
+
 
 ## Tiêu chí nghiệm thu
 
-- Tổng hợp đủ 235 SO trong phạm vi; mỗi SO được phân loại đúng một trạng thái và số lượng tổng hợp khớp với dữ liệu chi tiết.
-- Mỗi SO ghi `success` phải có kết quả xử lý và bằng chứng hậu kiểm trong dữ liệu chi tiết; không tính SO mới xử lý một phần là thành công.
-- SO `pending`, `interrupted` hoặc `held` được ghi rõ việc còn dở hoặc điểm đang chặn; không kết luận toàn bộ phạm vi đã đạt khi còn các trạng thái này.
-- SO `operator-handled` được tách riêng khỏi `success`; kết quả xử lý thủ công cần được xác nhận trước khi nghiệm thu toàn bộ phạm vi.
-- Quyết định của người vận hành và checkpoint có thể truy vết để tiếp tục công việc; không coi quyết định xử lý ngoại lệ là bằng chứng SO đã hoàn tất.
+- Các Sale order lines có trường "deliverd qty" và "invoiced qty" giống như hệ thống cũ
+- Các Sale Order, Stock move, Invoice có ngày giống như thế thống cũ
 
 ## Output
 
@@ -23,7 +19,7 @@
 | success — đã xử lý thành công và hậu kiểm | 10 |
 
 - Chi tiết trong project nguồn: `so-production.json`.
-- Đối chiếu tiêu chí minh họa: tổng số là 235 SO; chưa đủ cơ sở nghiệm thu toàn bộ phạm vi vì còn 219 SO pending và 3 SO held. Bản tổng hợp này không thay thế việc kiểm tra dữ liệu chi tiết.
+
 
 ## Decision log
 
