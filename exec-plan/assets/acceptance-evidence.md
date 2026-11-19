@@ -1,11 +1,13 @@
 # <Mốc được theo dõi/nghiệm thu>
 
 
-## Tổng hợp
+## Tiêu chí nghiệm thu:
 
-- **Tiêu chí nghiệm thu:**
-<tiêu chí nghiệm thu 1>.
-<tiêu chí nghiệm thu 2>.
+- <tiêu chí nghiệm thu 1>.
+- <tiêu chí nghiệm thu 2>.
+
+
+## Output
 
 - **Tổng hợp báo cáo từ kết quả chi tiết:**
 
