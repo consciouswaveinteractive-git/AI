@@ -149,7 +149,12 @@ def run():
             now = time.time()
             if now - last_refresh > REFRESH_INTERVAL:
                 try:
-                    refresh_quota()
+                    refreshed = refresh_quota()
+                    if not isinstance(refreshed, dict) or refreshed.get('ok') is not True:
+                        # Keep the last successful timestamp; a failed refresh
+                        # must never make cached quota appear freshly updated.
+                        last_refresh = now
+                        continue
                     pilot_router.router.reload()
                     pilot_router.router.ensure_active()
                     last_refresh = now
