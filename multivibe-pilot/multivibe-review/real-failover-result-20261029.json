@@ -1,0 +1,68 @@
+{
+  "passed": false,
+  "error_type": "AssertionError",
+  "controlled_fault_events": [
+    {
+      "account_index": 1,
+      "injected_quota": false,
+      "upstream_status": 200,
+      "content_type": null,
+      "content_encoding": null,
+      "event_types": {
+        "response.created": 1,
+        "response.in_progress": 1,
+        "response.output_item.added": 1,
+        "response.content_part.added": 1,
+        "response.output_text.delta": 1,
+        "response.metadata": 1,
+        "response.output_text.done": 1,
+        "response.content_part.done": 1,
+        "response.output_item.done": 1,
+        "response.completed": 1
+      },
+      "output_item_types": [
+        {
+          "type": "message",
+          "role": "assistant",
+          "content_types": [
+            "output_text"
+          ]
+        }
+      ]
+    },
+    {
+      "account_index": 1,
+      "injected_quota": true
+    },
+    {
+      "account_index": 0,
+      "injected_quota": false,
+      "upstream_status": 200,
+      "content_type": null,
+      "content_encoding": null,
+      "event_types": {
+        "response.created": 1,
+        "response.in_progress": 1,
+        "response.output_item.added": 1,
+        "response.content_part.added": 1,
+        "response.output_text.delta": 12,
+        "response.metadata": 1,
+        "response.output_text.done": 1,
+        "response.content_part.done": 1,
+        "response.output_item.done": 1,
+        "response.completed": 1
+      },
+      "output_item_types": [
+        {
+          "type": "message",
+          "role": "assistant",
+          "content_types": [
+            "output_text"
+          ]
+        }
+      ]
+    }
+  ],
+  "natural_quota_exhaustion": false,
+  "live_codex_config_changed": false
+}

@@ -1,0 +1,9 @@
+{
+  "model": "gpt-5.6-sol",
+  "completed": true,
+  "failed_event": false,
+  "exact_expected_text": true,
+  "response_text": "PILOT_OK_729",
+  "real_request": true,
+  "live_codex_config_changed": false
+}

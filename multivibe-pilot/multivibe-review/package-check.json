@@ -1,0 +1,16 @@
+{
+  "version": "0.2.138",
+  "sourceCommit": "74a9a06db205d8ceb7f77dc28cec4fb540424f97",
+  "exe_files": [
+    "app/node_modules/@anthropic-ai/claude-agent-sdk-win32-x64/claude.exe",
+    "bin/multivibe-host-menu.exe",
+    "bin/multivibe-host-updater.exe",
+    "bin/multivibe-host.exe",
+    "bin/node.exe"
+  ],
+  "edge_files": [
+    "app/dist/internal-v1-edge-routes.js",
+    "app/dist/internal-v1-edge-routes.test.js"
+  ],
+  "control_plane": "export const CONTROL_PLANE_PORT = Number(process.env.CONTROL_PLANE_PORT ?? 1456);"
+}
