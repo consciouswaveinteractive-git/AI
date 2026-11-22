@@ -29,9 +29,8 @@ description: Lập, cập nhật và nghiệm thu ExecPlan ngắn gọn cho ngư
 
 ### Output
 
-- Tổng hợp là báo cáo các file chi tiết dưới dạng xúc tích và dễ đọc cho người
-- File output chi tiết dùng định dạng khác Markdown, phù hợp với dữ liệu: CSV/XLSX cho bảng đối chiếu, JSON cho dữ liệu có cấu trúc lồng nhau, JSONL cho chuỗi sự kiện. Ảnh, PDF hoặc log giữ định dạng gốc khi cần làm bằng chứng. Không đổi đuôi file chỉ để đáp ứng định dạng.
-- Ví dụ: [acceptance evidence example 1](references/acceptance-evidence-example-1.md#output) 
+- Chỉ khi đã hoàn thành tất cả tiêu chí nghiệm thu, Tổng hợp báo cáo các dưới dạng xúc tích và dễ đọc cho người
+
 
 ### Decision log
 
