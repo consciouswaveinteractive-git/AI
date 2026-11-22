@@ -9,13 +9,12 @@
 
 ## Output
 
-- **Tổng hợp báo cáo từ kết quả chi tiết:**
+- **Tổng hợp báo cáo:**
 
 | Kết quả/trạng thái | Số lượng hoặc kết luận |
 |---|---|
 | <Nhóm kết quả cần theo dõi> | <Số lượng/kết luận có thể kiểm chứng> |
 
-- **Chi tiết:** [<Tên dữ liệu chi tiết>](<đường-dẫn-file-chi-tiết>).
 
 
 ## Decision log
