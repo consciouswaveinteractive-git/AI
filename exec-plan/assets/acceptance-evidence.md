@@ -9,11 +9,7 @@
 
 ## Output
 
-- **Tổng hợp báo cáo:**
 
-| Kết quả/trạng thái | Số lượng hoặc kết luận |
-|---|---|
-| <Nhóm kết quả cần theo dõi> | <Số lượng/kết luận có thể kiểm chứng> |
 
 
 
