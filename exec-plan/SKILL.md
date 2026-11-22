@@ -34,7 +34,7 @@ description: Lập, cập nhật và nghiệm thu ExecPlan ngắn gọn cho ngư
 
 ### Decision log
 
-- Chỉ ghi quyết định đã được người vận hành trả lời/quyết định; câu hỏi chưa được trả lời nằm ở phần việc đang chặn hoặc checkpoint.
+- Chỉ ghi quyết định đã được AI hỏi và người vận hành trả lời/quyết định; câu hỏi chưa được trả lời nằm ở phần việc đang chặn hoặc checkpoint.
 - Không có record cụ thể đính kèm. Trọng tâm là quy tắc có thể tái sử dụng, không phải nhật ký xử lý từng record.
 - Ví dụ: [acceptance evidence example 1](references/acceptance-evidence-example-1.md#decision-log)
 
