@@ -28,9 +28,10 @@ description: Lập, cập nhật và nghiệm thu ExecPlan ngắn gọn cho ngư
 - Ví dụ: [acceptance evidence example 1](references/acceptance-evidence-example-1.md#tiêu-chí-nghiệm-thu) 
 
 ### Output
-
-- Chỉ khi đã hoàn thành tất cả tiêu chí nghiệm thu, Tổng hợp báo cáo các dưới dạng xúc tích và dễ đọc cho người
-
+ 
+- Tùy tiêu chí nghiệm thu:
+  - Với tiêu chí nghiệm thu là data migration thì output có thể là số model đã khớp, số record đã migrated..
+  - Với tiêu chí nghiệm thu là research thì output có thể là các điểm quan trọng có tính ứng dụng cao vào mốc hiện tại
 
 ### Decision log
 
