@@ -20,7 +20,7 @@ description: Lập, cập nhật, tiếp quản và nghiệm thu ExecPlan ngắn
 - `SKILL.md` là nguồn quy tắc gốc. Template evidence chứa cấu trúc và chỉ dẫn cập nhật ngắn; sao chép cả chỉ dẫn khi tạo file, giữ lại khi cập nhật. Không chép toàn bộ skill vào mỗi evidence.
 - Chỉ thay placeholder bằng dữ liệu thực tế. Mục chưa có dữ liệu ghi “-”.
 - Giữ bốn mục evidence theo thứ tự: `Tiêu chí nghiệm thu`, `Output`, `Decision log`, `Checkpoint`. Giữ các cột bắt buộc của Decision log và Checkpoint; Output linh hoạt theo nghiệp vụ.
-- Xem [ví dụ migration lịch sử](references/acceptance-evidence-example-1.md) và [ví dụ cập nhật, tiếp quản và chuyển đổi file cũ](references/evidence-update-examples.md).
+- Xem [ví dụ migration lịch sử](references/acceptance-evidence-example-1.md)
 
 
 
