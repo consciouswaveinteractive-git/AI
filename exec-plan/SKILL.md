@@ -21,6 +21,7 @@ description: Lập, cập nhật và nghiệm thu ExecPlan ngắn gọn cho ngư
 
 ## Acceptance evidence
 
+
 ### Tiêu chí nghiệm thu
 
 - Nêu rõ phạm vi, điều kiện đạt có thể kiểm chứng và bằng chứng cần đối chiếu; phân biệt hoàn tất xử lý với đã hậu kiểm và được nghiệm thu.
