@@ -40,6 +40,7 @@ description: Lập, cập nhật, tiếp quản và nghiệm thu ExecPlan ngắn
 
 ### Decision log
 
+- Mục đích: giúp agent đỡ hỏi những câu hỏi một cách lặp lại. Khi agent hỏi lặp lại, điều đó chứng tỏ có cách làm chưa thực sự thông minh và cần thay đổi
 - Giữ ba cột: `STT`, `Câu hỏi AI đã hỏi`, `Câu trả lời của người vận hành`.
 - Chỉ ghi câu hỏi AI thực sự đã hỏi người và câu trả lời/quyết định người trả lời
 - Diễn đạt thành quy tắc tái sử dụng, không đính kèm ID hoặc nhật ký xử lý từng record
