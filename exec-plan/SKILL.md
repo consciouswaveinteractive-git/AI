@@ -34,20 +34,16 @@ description: Lập, cập nhật, tiếp quản và nghiệm thu ExecPlan ngắn
 
 ### Output
 
-- Chọn cách trình bày phù hợp tiêu chí: migration có thể dùng bảng số lượng; research có thể dùng kết luận ngắn có tính ứng dụng.
+- Gắn link output. 
+- Chọn output format phù hợp với các tiêu chí
 
 
 ### Decision log
 
 - Giữ ba cột: `STT`, `Câu hỏi AI đã hỏi`, `Câu trả lời của người vận hành`.
-- Chỉ ghi câu hỏi AI thực sự đã hỏi và câu trả lời/quyết định đã nhận. Giữ căn cứ trao đổi có thể truy hồi; có thể dẫn chiếu ngắn trong ô khi cần.
-- Diễn đạt thành quy tắc tái sử dụng, không đính kèm ID hoặc nhật ký xử lý từng record. Không khái quát vượt phạm vi câu trả lời.
-- Câu hỏi chưa được trả lời nằm ở phần đang chặn trong Checkpoint, không ghi như quyết định đã có.
+- Chỉ ghi câu hỏi AI thực sự đã hỏi người và câu trả lời/quyết định người trả lời
+- Diễn đạt thành quy tắc tái sử dụng, không đính kèm ID hoặc nhật ký xử lý từng record
 
-### Checkpoint
 
-- Tạo ở mốc quan trọng, khi kết thúc/chuyển giao phiên dài hoặc khi tách plan nhỏ; không ghi từng thao tác.
-- Giữ ba cột: `Thời điểm/mốc`, `Thông tin chính`, `File chi tiết`.
-- Mỗi checkpoint chỉ một dòng tóm tắt và liên kết tới file chi tiết; không nhúng toàn bộ nội dung vào evidence.
-- Chưa có file checkpoint thì ghi bullet “Đang chặn”/“Chưa có” tại mục này, không tạo link giả. Không bắt tạo checkpoint cho mọi lần sửa nhỏ.
+
 
