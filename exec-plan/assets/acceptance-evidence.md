@@ -16,7 +16,7 @@
 
 ## Decision log
 
-> Biến câu hỏi/đáp thực tế thành quy tắc tái sử dụng trong phạm vi mốc này; Không ghi ID/nhật ký từng record.
+> Biến câu hỏi/đáp thực tế thành quy tắc tái sử dụng trong phạm vi mốc này; Không ghi ID/nhật ký từng record. Mục đích: giúp agent đỡ hỏi những câu hỏi một cách lặp lại. Khi agent hỏi lặp lại, điều đó chứng tỏ có cách làm chưa thực sự thông minh và cần thay đổi
 
 | STT | Câu hỏi AI đã hỏi | Câu trả lời của người vận hành |
 |---|---|---|
