@@ -19,7 +19,7 @@ description: Lập, cập nhật, tiếp quản và nghiệm thu ExecPlan ngắn
 - Dùng [mẫu ExecPlan](assets/exec-plan.md) cho cây mốc và [mẫu bằng chứng](assets/acceptance-evidence.md) cho theo dõi/nghiệm thu.
 - `SKILL.md` là nguồn quy tắc gốc. Template evidence chứa cấu trúc và chỉ dẫn cập nhật ngắn; sao chép cả chỉ dẫn khi tạo file, giữ lại khi cập nhật. Không chép toàn bộ skill vào mỗi evidence.
 - Chỉ thay placeholder bằng dữ liệu thực tế. Mục chưa có dữ liệu ghi “-”.
-- Giữ bốn mục evidence theo thứ tự: `Tiêu chí nghiệm thu`, `Output`, `Decision log`
+- Giữ ba mục evidence theo thứ tự: `Tiêu chí nghiệm thu`, `Output`, `Decision log`
 
 
 
